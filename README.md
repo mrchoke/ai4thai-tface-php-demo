@@ -27,7 +27,7 @@ $project_id = getenv('PROJECT_ID');
 เราสามารถใช้  PHP script เรียก API  โดยตรงซึ่งตัวอย่างจะมีอยู่สองแบบคือ
 
 - JSON Base64  POST
-- From POST
+- Form POST
 
 #### การเรียกใช้งาน
 
