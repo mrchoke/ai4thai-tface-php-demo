@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>T-Face</title>
+</head>
+<div class="container mt-5">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="./index.html">T-Face</a>
+
+    <div class="" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./t-face-bin-axios.html">Axios </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./t-face-bin-fetch.html">Fetch</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./t-face-base64-axios.html">Axios Base64</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./t-face-base64-fetch.html">Fetch Base64</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="text-center">
+    <h3>Ai For Thai T-Face Demo</h3>
+    <h5> Javascript: Base64 type</h5>
+    <h5>Use: fetch</h5>
+  </div>
+  <div class="card mb-3" style="max-width: 100%;">
+
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="" class="card-img" id="previreImg">
+      </div>
+      <div class="col-md-8">
+        <div class="row ml-3">
+          <div class="col-12">
+            <div class="card-body">
+
+              <div class="custom-file mb-3">
+                <input type="file" class="custom-file-input" id="fimg">
+                <label class="custom-file-label" for="fimg">เลือกรูปภาพ...</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div>
+              <h3 id="resultText"> </h3>
+            </div>
+            <div id="result"></div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-load-image/5.13.0/load-image.all.min.js"></script>
+<script src="./t-face.js"></script>
+<script src="./t-face-base64-fetch.js"></script>
+
+</body>
+
+</html>

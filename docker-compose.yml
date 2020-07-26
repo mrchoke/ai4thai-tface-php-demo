@@ -1,0 +1,14 @@
+version:  '2.2'
+services: 
+  tface:
+    image: php:cli-alpine
+    restart: always
+    volumes: 
+      - ./app:/app
+    ports: 
+      - "8383:8000"
+    working_dir: /app
+    environment: 
+      - API_KEY=$API_KEY
+      - PROJECT_ID=$PROJECT_ID
+    command: "php -S 0.0.0.0:8000"
