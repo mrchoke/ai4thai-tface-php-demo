@@ -67,7 +67,7 @@ app/proxy_bin.php
 #### การเรียกใช้งาน
 
 ```
-docker-compost up -d
+docker-compose up -d
 ```
 
 เมื่อ `docker-compose up -d` เสร็จแล้วเราสามารถเข้าใช้งานตัวอย่าง Code โดยเรียกด้วย Web Browser เปิดไปยัง
